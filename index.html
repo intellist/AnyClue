@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AnyClue Presentation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/white.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <section>
+        <h2>AnyClue 2025</h2>
+        <p><strong>We help autoimmune patients understand their own body, not guess.</strong></p>
+      </section>
+
+      <section>
+        <h3>Target Diseases</h3>
+        <p>Lupus • Crohn’s • Colitis • Hashimoto • Rheumatoid Arthritis</p>
+      </section>
+
+      <section>
+        <h3>Problem</h3>
+        <ul>
+          <li>Chronic, unpredictable, and individualized diseases</li>
+          <li>Helplessness: "Same diet, different symptoms"</li>
+          <li>Poor doctor-patient feedback loop</li>
+          <li>Brain fog, fatigue, anxiety → need for easy tracking</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Insights</h3>
+        <ul>
+          <li>Long-term management, not cure 🔄</li>
+          <li>Dietary triggers 🍽️</li>
+          <li>Brain fog 🧠 → Easy tracking needed</li>
+          <li>Personal data → insight mapping 📊</li>
+          <li>Empowering patients 🤝</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Solution</h3>
+        <p>Personalized and data-driven learning: not crowd-based advice.</p>
+      </section>
+
+      <section>
+        <h3>Technique</h3>
+        <p>
+          Bayesian Updates:<br>
+          <code>P(symptom | food) = (α * general_data + β * user_data) / (α + β)</code>
+        </p>
+        <p>Temporal association problem → Multi-window analysis (0–4h, 4–8h, 8–24h)</p>
+      </section>
+
+      <section>
+        <h3>Features</h3>
+        <ul>
+          <li>Food logging: photo, text, voice</li>
+          <li>Symptom tracking: text, voice</li>
+          <li>Risky score generation for food items</li>
+          <li>Nutrition-satisfying food combinations</li>
+          <li>Timeline of symptoms after risky foods</li>
+          <li>Closed-loop feedback system</li>
+          <li>Weather, sleep integration (wearables)</li>
+          <li>Doctor/nutritionist sharing</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Personalized Bayesian Models</h3>
+        <p>Building user-specific probabilistic graphs that improve over time.</p>
+      </section>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+  <script>
+    Reveal.initialize();
+  </script>
+</body>
+</html>
